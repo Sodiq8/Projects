@@ -1,0 +1,29 @@
+
+
+body{  
+	font-family:"times new roman"; /*the page font*/
+	background-color: rgb(128,128,128); /*the page background color which is gray*/
+	}
+.center { /*this was used to centralized the image*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	}
+h1,h3{ /*this was used to make the headlines centralized*/
+	text-align:center;
+	}
+	.houtline{ /*this was the frame for the first heading.*/
+	border:1px solid black; 
+	padding:2.5px;
+	border-radius: 10px;
+	}
+.portraittext{ /*a label of the image that is under the image.*/
+	text-align:center;
+	background-color:darkgray;
+	padding:4px 0px;
+}
+div.frame{ /*this is use to store all image and text in a single frame.*/
+	border:1px solid black;
+	padding: 2px 0px 0px 0px;
+	border-radius: 13px;
+}	
